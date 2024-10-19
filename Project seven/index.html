@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ------- CSS Links ------------ -->
+     <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+     <link rel="stylesheet" href="../Project seven/css/style.css">
+
+    <title>Portfolio Website -Jane</title>
+
+</head>
+
+<body>
+    <!-- Header section -->
+
+    <header>
+        <div class="portfolio__container">
+            <div class="portfolio__row header__wrap">
+                <div class="brand__name">
+                    <a href="#" class="brand__logo">Jane</a>
+                </div>
+
+                <!-- Header Navbar -->
+                <div class="navbar">
+                    <ul>
+                        <li class="nav__list">
+                            <a href="#about" class="nav__link">Home</a>
+                        </li>
+
+                        <li class="nav__list">
+                            <a href="#resume" class="nav__link">Resume</a>
+                        </li>
+
+                        <li class="nav__list">
+                            <a href="#services" class="nav__link">Services</a>
+                        </li>
+
+                        <li class="nav__list">
+                            <a href="#projects" class="nav__link">Projects</a>
+                        </li>
+
+                        <li class="nav__list">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle">
+                    <i class="lni lni-grid-alt"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+     <section class="about" id="about">
+        <div class="portfolio__container">
+            <div class="portfolio__row about__content">
+                <!-- Greetings and introduction -->
+
+                <div class="about__intro">
+                    <div class="about__text">
+                        <h1> 👋 Hey there, <br> It's Jane</h1>
+                        <h3>User Interface Designer</h3>
+                        <p>Hey, are you looking for a designer to build <strong>your Brand and grow your business ? </strong> let's shake
+                        hands with me.</p>
+                    </div>
+                </div>
+
+                <div class="about__image">
+                    <img src="../Project seven/images/profile.png" alt="profile">
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- ---------- Resume Section ------------ -->
+     <section class="resume" id="resume">
+        <div class="portfolio__container">
+            <div class="portfolio__row">
+                <div class="resume__intro">
+                    <h2><strong>About Me</strong></h2>
+                    <div class="resume__text">
+                        <p>
+                            A senior full stack developer brings unparalleled expertise to the table, with a proven track
+                            record of spearheading complex web development projects. Their in-depth knowledge
+                            encompasses both front-end and back-end technologies, ensuring seamless integration.
+                        </p>
+                        <br>
+                        <p>
+                            Proficient in a plethora of programming languages and frameworks, they architect scalable
+                            systems.
+                        </p>
+                        <br>
+                        <p>
+                            A developer is an invaluable asset, driving innovation and excellence in web development.
+                            Services
+                        </p>
+                    </div>
+
+                    <div class="hello__btn">
+                        <a href="#contact">Say Hello</a>
+                    </div>
+                </div>
+
+                <div class="resume__body">
+                    <h2><strong>Qualification</strong></h2>
+
+                    <div class="resume__heading">
+                        <button class="btn active" type="button" data-id="education">
+                            Education
+                        </button>
+
+                        <button class="btn" type="button" data-id="experience">
+                            Experience
+                        </button>
+
+                        <button class="btn" type="button" data-id="skills">
+                            Skills
+                        </button>
+                    </div>
+
+                    <!-- Education card -->
+                     <div class="resume__card active" id="education">
+                        <div class="qualification__content">
+                            <h4 class="course">Master of Design</h4>
+                            <h6 class="institution">IIT Hyderabad</h6>
+                            <span class="year">(2019-2021)</span>
+                        </div>
+
+                        <div class="qualification__content">
+                            <h4 class="course">BCA in Web Application Development</h4>
+                            <h6 class="institution">The NorthCap University</h6>
+                            <span class="year">(2013-2016)</span>
+                        </div>
+
+                        <div class="qualification__content">
+                            <h4 class="course">Diploma in Web Designing</h4>
+                            <h6 class="institution">Bangalore University</h6>
+                            <span class="year">(2010-2012)</span>
+                        </div>
+                     </div>
+
+                    <!-- Experience card -->
+                     <div class="resume__card" id="experience">
+                        <div class="qualification__content">
+                            <h4 class="course">Full Stack Developer</h4>
+                            <h6 class="organization">Pixel Studios</h6>
+                            <span class="year">Jan 2018 - Sep 2020</span>
+                        </div>
+
+                        <div class="qualification__content">
+                            <h4 class="course">Web Developer</h4>
+                            <h6 class="organization">ByteBloom Tech</h6>
+                            <span class="year">Feb 2016 - Dec 2017</span>
+                        </div>
+
+                        <div class="qualification__content">
+                            <h4 class="course">UI/UX Designer</h4>
+                            <h6 class="organization">Infinity Labs</h6>
+                            <span class="year">Aug 2012 - December 2017</span>
+                        </div>
+                        
+                     </div>
+
+                    <!-- Skills card -->
+                     <div class="resume__card" id="skills">
+                        <div class="bar__content">
+                            <div class="bar__heading">
+                                <div class="bar__title">
+                                    Front-End Development Basics
+                                </div>
+                                <div class="bar__percentage">
+                                    85%
+                                </div>
+                            </div>
+                            
+                            <div class="bar__progress">
+                               <div class="progress__bar" style="width: 85%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="bar__content">
+                            <div class="bar__heading">
+                                <div class="bar__title">
+                                    Database Management
+                                </div>
+                                <div class="bar__percentage">
+                                    80%
+                                </div>
+                            </div>
+                            
+                            <div class="bar__progress">
+                               <div class="progress__bar" style="width: 80%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="bar__content">
+                            <div class="bar__heading">
+                                <div class="bar__title">
+                                    Testing and Debugging
+                                </div>
+                                <div class="bar__percentage">
+                                    85%
+                                </div>
+                            </div>
+                            
+                            <div class="bar__progress">
+                               <div class="progress__bar" style="width: 85%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="bar__content">
+                            <div class="bar__heading">
+                                <div class="bar__title">
+                                    API Development
+                                </div>
+                                <div class="bar__percentage">
+                                    95%
+                                </div>
+                            </div>
+                            
+                            <div class="bar__progress">
+                               <div class="progress__bar" style="width: 95%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="bar__content">
+                            <div class="bar__heading">
+                                <div class="bar__title">
+                                    Design Tools
+                                </div>
+                                <div class="bar__percentage">
+                                    90%
+                                </div>
+                            </div>
+                            
+                            <div class="bar__progress">
+                               <div class="progress__bar" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                     </div>
+
+                </div>
+
+            </div>
+        </div>
+     </section>
+
+     <!-- ----------- Service Section ------------ -->
+     <section class="services" id="services">
+        <div class="portfolio__container">
+            <h2>
+                <strong>What Do I Help</strong>🛠️
+            </h2>
+
+            <div class="service__row">
+                <div class="service__card">
+                    <div class="service__icon">
+                        <i class="lni lni-css3"></i>
+                    </div>
+
+                    <div class="service__content">
+                        <h6>Web Development</h6>
+                        <p>Elevate your online presence with stunning web designs.</p>
+                    </div>
+                </div>
+
+                <div class="service__card">
+                    <div class="service__icon">
+                        <i class="lni lni-adobe"></i>
+                    </div>
+
+                    <div class="service__content">
+                        <h6>Graphic Design</h6>
+                        <p>Transform your brand narrative with innovative designs.</p>
+                    </div>
+                </div>
+
+                <div class="service__card">
+                    <div class="service__icon">
+                        <i class="lni lni-python"></i>
+                    </div>
+
+                    <div class="service__content">
+                        <h6>Data Analytics</h6>
+                        <p>Make data-driven decisions with our expert data analytics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- ------ Project Section --------- -->
+
+     <section class="projects" id="projects">.
+        <div class="portfolio__container">
+            <div class="portfolio__row filter__wrap">
+                <h2><strong>Recent Work</strong></h2>
+
+                <!-- portfolio nav filter -->
+
+                <div class="portfolio__filter__nav">
+                    <button class="btn active" data-id="all" type="button">All</button>
+                    <button class="btn" data-id="design" type="button">Design</button>
+                    <button class="btn" data-id="development" type="button">Development</button>
+                </div>
+            </div>
+
+            <!-- portfolio galary -->
+
+            <div class="portfolio__wrapper">
+                <div class="portfolio__col">
+                    <div class="portfolio__item design">
+                        <img src="../Project seven/images/lens.jpg" alt="portfolio">
+                        <div class="portfolio__item__content">
+                            <div class="product__title">
+                                <h4>UXAlchemy</h4>
+                                <p>Designing Visual Narratives</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item development">
+                        <img src="../Project seven/images/light.jpg" alt="portfolio">
+                        <div class="portfolio__item__content">
+                            <div class="product__title">
+                                <h4>WebWhisperer</h4>
+                                <p>User Experiences</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio__col">
+                    <div class="portfolio__item development">
+                        <img src="../Project seven/images/bottle.jpg" alt="portfolio">
+                        <div class="portfolio__item__content">
+                            <div class="product__title">
+                                <h4>PixelCraft</h4>
+                                <p>Building Masterpieces</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item design">
+                        <img src="../Project seven/images/ukulele.jpg" alt="portfolio">
+                        <div class="portfolio__item__content">
+                            <div class="product__title">
+                                <h4>DevEasel</h4>
+                                <p>Artistry in Development</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio__col">
+                    <div class="portfolio__item development">
+                        <img src="../Project seven/images/podium.jpg" alt="portfolio">
+                        <div class="portfolio__item__content">
+                            <div class="product__title">
+                                <h4>CodeMosaic</h4>
+                                <p>Transforming User Experiences</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item design">
+                        <img src="../Project seven/images/sunglasses.jpg" alt="portfolio">
+                        <div class="portfolio__item__content">
+                            <div class="product__title">
+                                <h4>Apexon</h4>
+                                <p>The Future of UX</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- ----------- Contact Section ---------- -->
+
+     <section class="contact" id="contact">
+        <div class="portfolio__container">
+                <h2><strong>Get in touch</strong></h2>
+             <!-- Contact genaral info -->
+              <div class="contact__genaral">
+
+                <div class="contact__card">
+                    <div class="contact__icon">
+                        <i class="lni lni-map-marker"></i>
+                    </div>
+
+                    <div class="contact__content">
+                        <h5>Location</h5>
+                        <span>1234 Elm Place Street, Springfield Hills, IL 62701</span>
+                    </div>
+                </div>
+
+                <div class="contact__card">
+                    <div class="contact__icon">
+                        <i class="ri-phone-line"></i>
+                    </div>
+
+                    <div class="contact__content">
+                        <h5>Phone</h5>
+                        <span>(+1) 123 456 7890</span>
+                        <br>
+                        <span>(+1) 987 654 3210</span>
+                    </div>
+                </div>
+
+                <div class="contact__card">
+                    <div class="contact__icon">
+                        <i class="ri-mail-line"></i>
+                    </div>
+
+                    <div class="contact__content">
+                        <h>Email</h>
+                        <span>info@nazmul.com</span>
+                        <br>
+                        <span>admin@nazmul.com</span>
+                    </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="portfolio-container">
+            <h2 style="text-align: center;"><strong>Contact Me</strong></h2>
+            <div class="portfolio-row">
+                <!------ Main Contact Form Begins ------->
+                <form id="contact-form" method="POST" action="#">
+                    <div class="portfolio-row">
+                        <div class="name-email">
+                            <div class="input-wrapper">
+                                <label for="name">Name</label>
+                                <input type="text" class="input-control" name="name" placeholder="Enter your name">
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="email">Email</label>
+                                <input type="email" class="input-control" name="email" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="input-subject">
+                            <label for="subject">Subject</label>
+                            <input type="text" class="input-control" name="subject" placeholder="Enter your subject">
+                        </div>
+                        <div class="input-subject">
+                            <label for="message">Message</label>
+                            <textarea name="message" class="contact-msg" rows="9" placeholder="Your Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit" class="btn-submit">Submit</button>
+                        <div class="loader">
+                            <i class="lni lni-spinner-solid"></i>
+                        </div>
+                        <div class="form-message"></div>
+                    </div>
+                </form>
+                <!------- Main Contact Form Ends -------->
+            </div>
+        </div>
+     </section>
+
+</body>
+
+    <script src="../Project seven/js/main.js"></script>
+</html>
